@@ -9,4 +9,4 @@ To run this project locally, run the command `npm start`, this will start a loca
 
 
 
-Developed By [Parvinder Singh](https://github.com/pmpsingh42/spacex)
+Developed By [Parvinder Singh](https://601fb6c8a96f4cbf1c17c74c--pedantic-sammet-ffc7bc.netlify.app/)
