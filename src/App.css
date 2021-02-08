@@ -46,6 +46,7 @@ body {
 .App-filter-card {
   width: 18rem;
   margin-bottom: 15px;
+  
 }
 
 .App-filter-header {
@@ -81,6 +82,14 @@ body {
 .App-filter-button {
   flex: 0 40%;
   margin: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .App-filter-card {
+    margin: auto;
+    
+  }
+    
 }
 
 @keyframes App-logo-spin {
