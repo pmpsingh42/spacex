@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #F2F2F2 !important;
+  
+}
+
+.App {
+  background-color: #F2F2F2;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.App-loader-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-loader-box {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(22px + 2vmin);
+  color: #0A0A0A;
+  padding: 16px;
+  @media screen and (max-width: 700px) {
+    max-width: 18rem;
+    margin: auto;
+    padding-left: 0;
+
+  }
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-filter-card {
+  max-width: 18rem;
+  margin-bottom: 15px;
+  margin-left: 16px;
+  @media screen and (max-width: 700px) {
+   margin: auto;
+   margin-bottom: 15px;
+  }
+  .filter-card-area {
+    padding: 1.25rem;
+    background-color: white;
+
+  }
+  
+}
+
+.App-filter-header {
+  color: #111111;
+  h5 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.App-filter-heading {
+  text-align: center !important;
+  margin-top: 1rem;
+}
+
+.App-filter-heading-launch-year {
+  text-align: center !important;
+  margin-top: -1rem;
+}
+
+.App-filters-hr {
+  margin: 0.4rem;
+}
+
+.App-filter-button-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-Developers-name {
+  text-align: center !important;
+  font-size: 1.25rem;
+}
+
+.App-filter-button {
+  flex: 0 40%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.containt-container  {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.success {
+    color: #222222;
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.outline-success {
+    color: #222222;
+    background: #abefa7;
+    border-radius: 5px;
+    border: 1px solid #28a745;
+}
+
+.outline-success:hover {
+  background: #28a745;
+  cursor: pointer;
+}
+
+.filter-container {
+  display: flex;
+  flex-basis: 24%;
+  @media screen and (max-width: 1024px) {
+    flex-basis: 35%;
+  }
+  @media screen and (max-width: 700px) {
+    flex-basis: 100%;
+  }
+}
+
+.space-data-conatainer{
+  display: flex;
+  flex-basis: 73%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10px;
+  flex: 1;
+  @media screen and (max-width: 1024px) {
+    flex-basis: 61%;
+  }
+  @media screen and (max-width: 700px) {
+    display: block;
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

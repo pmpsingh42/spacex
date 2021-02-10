@@ -1,6 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import "./SpaceDetails.css";
+import "./SpaceDetails.scss";
 
 function SpaceDetails({ details }) {
   const {
@@ -16,9 +15,9 @@ function SpaceDetails({ details }) {
   const land_success = rocket.first_stage.cores[0].land_success;
 
   return (
-    <Card className="space-details-card">
-      <div key={flight_number}>
-        <div>
+    <div className="space-details-card">
+      <div className="space-card-back" key={flight_number}>
+        <div >
           <img
             src={imgSrc}
             alt="mission patch img not available on api"
@@ -52,7 +51,7 @@ function SpaceDetails({ details }) {
           </span>
         </div>
       </div>
-    </Card>
+    </div>
   );
 }
 
